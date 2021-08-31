@@ -1,0 +1,7 @@
+CREATE DATABASE CLI_COMMANDS;
+
+CREATE TABLE cliTable(
+    cliTable_id SERIAL PRIMARY KEY,
+    cmd VARCHAR(50),
+    description VARCHAR(300)
+);
