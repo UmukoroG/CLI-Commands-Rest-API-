@@ -1,5 +1,5 @@
 //configures how we connect to our database
-const { Pool } = require("pg");
+const  Pool = require("pg").Pool;
 
 const pool =new Pool({
     user:process.env.DATABASE_USER,
