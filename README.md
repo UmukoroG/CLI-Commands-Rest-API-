@@ -10,4 +10,5 @@ I will be using the PERN stack in this project to perform CRUD operations.
 
 ![image](https://user-images.githubusercontent.com/61124647/131562603-a4b45ac1-d1a2-4a50-9d7d-0be396a833ce.png)
 
-
+**nodemon index** - runs the server side of our application in the server directory
+**npm start** - runs the client side of our application in the client directory
