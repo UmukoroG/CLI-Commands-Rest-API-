@@ -21,6 +21,8 @@ cd client
 npm install
 ```
 
+________________________________________________________________________________________________
+
 **Running the Application Locally**
 
 In one terminal, start the front-end
