@@ -1,13 +1,38 @@
 # CLI-Commands-Rest-API-
-Building a REST API which stores command line code snippet with their description.
-
-PERN: PostgreSQL-ExpressJS-ReactJS-NodeJS
+A REST API which stores command line code snippet with their description using client-server architecture.
 
 I will be using the PERN stack in this project to perform CRUD operations.
 
-**nodemon index** - runs the server side of our application in the server directory
+PERN: PostgreSQL-ExpressJS-ReactJS-NodeJS
 
-**npm start** - runs the client side of our application in the client directory
+##Initital Setup
+________________________________________________________________________________________________
+
+In the server folder, install dependencies:
+```
+cd server
+npm install
+```
+
+In the client folder, install dependencies
+```
+cd client
+npm install
+```
+
+##Running the Application Locally
+
+In one terminal, start the front-end
+```
+cd client
+npm start
+```
+
+In a separate terminal, start the backend
+```
+cd server
+nodemon index
+```
 
 ![image](https://user-images.githubusercontent.com/61124647/131749882-55d898e0-568f-4ed5-9c9e-86d45ec5d4d7.png)
 
